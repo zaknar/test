@@ -7,6 +7,9 @@ $(call inherit-product, vendor/revolt/configs/cdma.mk)
 # Inherit common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
+# Inherit Verizon stuff
+$(call inherit-product, vendor/revolt/configs/vzw.mk)
+
 # toro Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/tuna
 
